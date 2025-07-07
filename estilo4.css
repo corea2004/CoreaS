@@ -1,0 +1,50 @@
+*{
+	padding:1px;
+	margin:0px;
+}
+#header{
+	margin: auto;
+	width:730px;
+}
+ul, ol{
+	list-style: none;
+}
+.nav li a{
+	background-color: #a18ee2;
+	color:  #f8efed;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+}
+.nav > li{
+	float: left;
+}
+.nav li a:hover{
+	background-color: #696666;
+}
+			h1{
+				background-color: #a18ee2;		
+				color: #f7fbff;
+				border-radius: 30px;
+				border-color: #000000;
+				padding: 20px;
+				text-align: center;
+				border-top: 20px;
+			}
+			
+			h2{
+				background-color: #5c5bad;		
+				color: #f7fbff;
+				border-radius: 0px;
+				border-color: #000000;
+				padding: 10px;
+				text-align: center;
+				border-top: 40px;
+			}
+			body{
+				background-image: url('imagenes/fondo4.jpg');
+				background-size: cover;      	
+				background-repeat: no-repeat;
+				background-position: center;
+				background-attachment: fixed;
+			}
